@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyPKB</string>
+    <string name="simple_ime">My PKB</string>
+    <string name="subtype_en_US">English (US)</string>
+</resources>

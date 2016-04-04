@@ -1,0 +1,30 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+    <Row>
+        <Key android:codes="49" android:keyLabel="Sign" android:keyWidth="33%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="50" android:keyLabel="Name" android:keyWidth="33%p" />
+        <Key android:codes="51" android:keyLabel="Address" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="52" android:keyLabel="Phone" android:keyWidth="25%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="53" android:keyLabel="Email" android:keyWidth="25%p" />
+        <Key android:codes="54" android:keyLabel="*" android:keyWidth="25%p" />
+        <Key android:codes="55" android:keyLabel="*" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="56" android:keyLabel="CV temp." android:keyWidth="33%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="57" android:keyLabel="*" android:keyWidth="33%p" />
+        <Key android:codes="48" android:keyLabel="*" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
+        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
+        <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
