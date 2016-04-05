@@ -28,11 +28,15 @@ public class AppUtil {
 
     public static void saveAll(Context ctx) {
         SharedPreferences sharedpreferences = ctx.getSharedPreferences(AppUtil.PREF, Context.MODE_PRIVATE);
+        if(!sharedpreferences.getBoolean("firstLaunch", true)){
+            return;
+        }
         SharedPreferences.Editor editor = sharedpreferences.edit();
 
         for (Integer key : template.keySet()) {
             editor.putString(String.valueOf(key), template.get(key));
         }
+        editor.putBoolean("firstLaunch", false);
         editor.commit();
     }
 
