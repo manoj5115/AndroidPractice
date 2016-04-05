@@ -74,21 +74,10 @@ public class SimpleIME extends InputMethodService
         }
     }
 
-    Map<Integer, String> template = new HashMap<Integer, String>(){
-        {
-            put(49, "Regards,\nManoj Gupta\n+91 9004175857"); // sign
-            put(50, "Manoj Gupta"); // name
-            put(51, "602, Rameshwaram Apmt, Opp. Keshav Nagar, Vaishali Nagar, NM Road, Dahisar(E), Mumbai-400068."); // address
-            put(52, "09004175857"); //phone
-            put(53, "manoj5115@gmail.com"); // email
-            put(56, "Hi there,\n\nPls see attached CV.\n\nRegards,\n" +
-                    "Manoj Gupta\n" +
-                    "+91 9004175857"); // CV template
 
-        }
-    };
+
     private void commitText(int primaryCode, InputConnection ic) {
-        String txt = template.get(primaryCode);
+        String txt = AppUtil.getKeyText(getApplicationContext(), primaryCode);
         if(txt == null){
             char code = (char)primaryCode;
             if(Character.isLetter(code) && caps){

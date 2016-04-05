@@ -5,20 +5,20 @@
     android:keyHeight="60dp"
     >
     <Row>
-        <Key android:codes="49" android:keyLabel="Sign" android:keyWidth="33%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="50" android:keyLabel="Name" android:keyWidth="33%p" />
-        <Key android:codes="51" android:keyLabel="Address" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0" android:keyLabel="Sign" android:keyWidth="33%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="1" android:keyLabel="Name" android:keyWidth="33%p" />
+        <Key android:codes="2" android:keyLabel="Address" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="52" android:keyLabel="Phone" android:keyWidth="25%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="53" android:keyLabel="Email" android:keyWidth="25%p" />
-        <Key android:codes="54" android:keyLabel="*" android:keyWidth="25%p" />
-        <Key android:codes="55" android:keyLabel="*" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="3" android:keyLabel="Phone" android:keyWidth="25%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="4" android:keyLabel="Email" android:keyWidth="25%p" />
+        <Key android:codes="8" android:keyLabel="*" android:keyWidth="25%p" />
+        <Key android:codes="9" android:keyLabel="*" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="56" android:keyLabel="CV temp." android:keyWidth="33%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="57" android:keyLabel="*" android:keyWidth="33%p" />
-        <Key android:codes="48" android:keyLabel="*" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="5" android:keyLabel="CV temp." android:keyWidth="33%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="6" android:keyLabel="*" android:keyWidth="33%p" />
+        <Key android:codes="7" android:keyLabel="*" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
